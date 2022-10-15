@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "e8404488f567c643",
@@ -141,7 +141,10 @@
   },
   "active": "65faf2618dff0cac",
   "lastOpenFiles": [
+    "Date/221013.md",
     "Date/221014.md",
-    "Date/221015.md"
+    "Date/221015.md",
+    "2022-10-15.md",
+    "Date/220929.md"
   ]
 }
