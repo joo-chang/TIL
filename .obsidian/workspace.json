@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5440dd24ebf59f5f",
+        "id": "e127a6b989b92bc9",
         "type": "tabs",
         "children": [
           {
-            "id": "65faf2618dff0cac",
+            "id": "8a5f87db624c7137",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/2022-10-15.md",
+                "file": "Date/2022-10-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/2022-10-15.md",
+                "file": "Date/2022-10-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/2022-10-15.md",
+                "file": "Date/2022-10-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/2022-10-15.md"
+                "file": "Date/2022-10-16.md"
               }
             }
           }
@@ -139,10 +139,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "65faf2618dff0cac",
+  "active": "8a5f87db624c7137",
   "lastOpenFiles": [
-    "Date/221015.md",
     "Date/2022-10-15.md",
+    "Study/마크다운.md",
+    "Date/2022-10-16.md",
+    "Date/221015.md",
     "Date/221013.md",
     "Date/221014.md",
     "2022-10-15.md",
