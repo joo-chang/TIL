@@ -1,4 +1,5 @@
 {
   "autorun": true,
-  "folder": "Date"
+  "folder": "Date",
+  "format": "YYMMDD"
 }
