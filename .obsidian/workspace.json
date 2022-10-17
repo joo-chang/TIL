@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221016.md",
+                "file": "Date/221017.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221016.md",
+                "file": "Date/221017.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221016.md",
+                "file": "Date/221017.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221016.md"
+                "file": "Date/221017.md"
               }
             }
           }
@@ -141,8 +141,9 @@
   },
   "active": "8a5f87db624c7137",
   "lastOpenFiles": [
-    "Date/2022-10-16.md",
     "Date/221016.md",
+    "Date/221017.md",
+    "Date/2022-10-16.md",
     "Date/2022-10-15.md",
     "Date/221015.md",
     "Study/마크다운.md",
