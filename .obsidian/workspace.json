@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221028.md",
+                "file": "Date/221029.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221028.md",
+                "file": "Date/221029.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221028.md",
+                "file": "Date/221029.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221028.md"
+                "file": "Date/221029.md"
               }
             }
           }
@@ -136,17 +136,20 @@
     "width": 300,
     "collapsed": true
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "88f9a4c6f9d9087c",
   "lastOpenFiles": [
-    "Date/221027.md",
-    "Date/221012.md",
-    "Date/221011.md",
-    "Date/221014.md",
-    "Date/221019.md",
-    "Date/221021.md",
-    "Date/221022.md",
-    "Date/221023.md",
     "Date/221025.md",
-    "Date/221026.md"
+    "Date/221026.md",
+    "Date/221023.md",
+    "Date/221022.md",
+    "Date/img/221022_1.png",
+    "Date/221018.md",
+    "Date/221019.md",
+    "Date/221020.md",
+    "Date/221017.md",
+    "스크린샷 2022-10-18 오후 6.04.52.png"
   ]
 }
