@@ -13,26 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221102.md",
+                "file": "Date/221030.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "abb907ed03f33350",
+            "id": "e08f4353ee82bf95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221104.md",
+                "file": "Date/221030.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a36ce9811a5d4547",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Date/221107.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221104.md",
+                "file": "Date/221030.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221104.md",
+                "file": "Date/221030.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221104.md"
+                "file": "Date/221030.md"
               }
             }
           }
@@ -149,17 +160,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "abb907ed03f33350",
+  "active": "88f9a4c6f9d9087c",
   "lastOpenFiles": [
-    "Date/221103.md",
-    "Date/221104.md",
-    "Date/221102.md",
-    "Date/221101.md",
+    "Date/221107.md",
+    "Date/221106.md",
+    "Date/221031.md",
     "Date/221028.md",
+    "Date/221029.md",
+    "Date/221030.md",
     "Date/221027.md",
-    "Date/221012.md",
-    "Date/221011.md",
-    "Date/221014.md",
-    "Date/221019.md"
+    "Date/221026.md",
+    "Date/221025.md",
+    "Date/221022.md"
   ]
 }
