@@ -24,3 +24,54 @@
 Console은 이름대로 콘솔에 로그를 찍어주는 Appender이다. target 속성의 기본 값은 SYSTEM_OUT이고, SYSTEM_ERR로 바꿀 수 있다.
 자식 요소로 PatternLayout이 있는데, pattern 속성의 값 형태로 로그를 생성한다.
 
+#### Layout
+
+- %c, %logger : 해당 로그를 쓰는 로거의 이름
+- %C, %class : 해당 로그를 요청한 클래스 이름
+- %d, %date : 해당 로그가 발생한 시간
+- %enc, %encode : 특정 언어에서의 출력을 위한 문자 인코딩
+- %ex, %exception, %throwable : 예외 로그. 길이 설정 가능
+- %F, %file : 해당 로그가 발생한 클래스 파일명
+- %l, %location : 해당 로그가 발생한 클래스명.메소드명(파일:라인)
+- %L, %line : 해당 로그가 발생한 라인 번호
+- %m, %msg, %message : 로그문에 전달된 메시지
+- %n : 줄바꿈
+- %p, %level : 로그 레벨
+- %r, %relative : 로그 처리시간
+- %t, %thread : 해당 로그가 발생한 스레드명
+- %style{pattern}{ANSI style} : ANSI를 사용해 특정 패턴을 스타일링
+- %highlight{pattern}{style} : 로그 레벨명을 ANSI 색깔로 하이라이트
+
+### Loggers
+
+로그를 찍을 곳과 그 내용을 정의하는 곳이다.   
+자식 요소로 Root와 Logger가 있고, 이들의 속성으로는 대표적으로 name과 level이 있다. anme 속성 값으로는 로깅을 희망하는 패키지를 입력하고, level에는 원하는 로깅 레벨을 입력한다.
+
+#### Root
+
+```
+<Root level="INFO" additivity="false">
+	<AppenderRef ref="Console_Appender" />
+</Root>
+```
+
+모든 Logger의 조상 logger라고 보면 된다. 추가적으로 Logger 태그에서 정의되지 않은 이벤트들은 모두 Root 설정에 따라 로그를 찍는다.
+
+자식 요소인 AppenderRef의 ref 속성으로 사용할 appender를 선택한다.   
+두 개 이상의 appender를 사용할 때는 새로운 AppenderRef 태그를 생성하고 속성 값을 변경해주면 된다.   
+additivity 속성은 중복된 로그를 남길지에 대한 속성이다. 다른 logger들과 같은 로그가 중복될 시 중복 로그를 표현하고 싶지 않다면 false를 주면 된다.
+
+#### Logger
+
+```
+<Logger name="org.springframework" level="ERROR" additivity="false">
+	<AppenderRef ref="Console_Appender" />
+</Logger>
+```
+
+Logger는 Root와 레벨이 다르거나 다른 appender를 사용하는 등 다른 설정이 필요한 경우 추가적으로 선언해준다.   
+해당 logger는 SpringFramework에서 발생하는 이벤트에 대한 로그를 ERROR 레벨 이상에 대해 Console Appender에 로그를 찍겠다는 내용이다.
+
+
+
+
