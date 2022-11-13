@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "88f9a4c6f9d9087c",
+            "id": "e08f4353ee82bf95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221112.md",
+                "file": "Study/JPA/영속성 컨텍스트.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e08f4353ee82bf95",
+            "id": "47ba1be0c2ae56d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221030.md",
+                "file": "Study/JPA/연관관계.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221112.md",
+                "file": "Study/JPA/연관관계.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221112.md",
+                "file": "Study/JPA/연관관계.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221112.md"
+                "file": "Study/JPA/연관관계.md"
               }
             }
           }
@@ -160,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "88f9a4c6f9d9087c",
+  "active": "47ba1be0c2ae56d3",
   "lastOpenFiles": [
+    "Study/JPA/영속성 컨텍스트.md",
+    "Date/무제파일.md",
+    "Date/221030.md",
+    "Date/221113.md",
+    "Date/221112.md",
     "Date/221111.md",
     "Study/log4j2.md",
     "Date/221110.md",
     "Date/221107.md",
-    "Date/221030.md",
-    "Date/221106.md",
-    "Date/221031.md",
-    "Date/221028.md",
-    "Date/221029.md",
-    "Date/221027.md"
+    "Date/221106.md"
   ]
 }
