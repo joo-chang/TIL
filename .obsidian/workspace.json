@@ -13,21 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/JPA/영속성 컨텍스트.md",
+                "file": "Date/221115.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "47ba1be0c2ae56d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Study/JPA/연관관계.md",
-                "mode": "source",
-                "source": true
               }
             }
           },
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/JPA/연관관계.md",
+                "file": "Date/221115.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/JPA/연관관계.md",
+                "file": "Date/221115.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/JPA/연관관계.md"
+                "file": "Date/221115.md"
               }
             }
           }
@@ -161,17 +148,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "47ba1be0c2ae56d3",
+  "active": "e08f4353ee82bf95",
   "lastOpenFiles": [
-    "Date/221114.md",
+    "Date/img/Pasted image 20221115162852.png",
+    "Date/221115.md",
     "Study/JPA/연관관계.md",
+    "Date/221114.md",
     "Study/JPA/영속성 컨텍스트.md",
     "Date/221113.md",
     "Date/221112.md",
     "Date/무제파일.md",
     "Date/221030.md",
-    "Date/221111.md",
-    "Study/log4j2.md",
-    "Date/221110.md"
+    "Date/221111.md"
   ]
 }
