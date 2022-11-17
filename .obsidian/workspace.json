@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221116.md",
+                "file": "Date/221117.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e8404488f567c643",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221116.md",
+                "file": "Date/221117.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221116.md",
+                "file": "Date/221117.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221116.md"
+                "file": "Date/221117.md"
               }
             }
           }
@@ -150,9 +151,9 @@
   },
   "active": "e08f4353ee82bf95",
   "lastOpenFiles": [
-    "Date/221115.md",
     "Date/221116.md",
     "Date/221117.md",
+    "Date/221115.md",
     "Date/img/Pasted image 20221115162852.png",
     "Study/JPA/연관관계.md",
     "Date/221114.md",
