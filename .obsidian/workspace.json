@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221119.md",
+                "file": "Date/221121.md",
                 "mode": "source",
                 "source": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221119.md",
+                "file": "Date/221121.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221119.md",
+                "file": "Date/221121.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221119.md"
+                "file": "Date/221121.md"
               }
             }
           }
@@ -163,6 +163,7 @@
   },
   "active": "47ba1be0c2ae56d3",
   "lastOpenFiles": [
+    "Date/221119.md",
     "Date/221118.md",
     "Date/221117.md",
     "Date/221113.md",
@@ -171,7 +172,6 @@
     "Date/221112.md",
     "Date/무제파일.md",
     "Date/221030.md",
-    "Date/221111.md",
-    "Study/log4j2.md"
+    "Date/221111.md"
   ]
 }
