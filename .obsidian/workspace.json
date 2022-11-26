@@ -23,11 +23,9 @@
             "id": "47ba1be0c2ae56d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Date/221122.md",
-                "mode": "source",
-                "source": false
+                "file": "Date/img/img.png"
               }
             }
           },
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221122.md",
+                "file": "Date/img/img.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221122.md",
+                "file": "Date/img/img.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221122.md"
+                "file": "Date/img/img.png"
               }
             }
           }
@@ -163,15 +161,15 @@
   },
   "active": "47ba1be0c2ae56d3",
   "lastOpenFiles": [
-    "Date/img/Pasted image 20221119203353.png",
+    "Date/img/221022_1.png",
+    "Date/img/221018_1.png",
     "Date/221122.md",
+    "Date/img/Pasted image 20221119203353.png",
     "Date/221121.md",
     "Date/221119.md",
     "Date/221118.md",
     "Date/221117.md",
     "Date/221113.md",
-    "Study/JPA/연관관계.md",
-    "Study/JPA/영속성 컨텍스트.md",
-    "Date/221112.md"
+    "Study/JPA/연관관계.md"
   ]
 }
