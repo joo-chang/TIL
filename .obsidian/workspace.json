@@ -23,9 +23,11 @@
             "id": "47ba1be0c2ae56d3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Date/img/img.png"
+                "file": "Date/221127.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/img/img.png",
+                "file": "Date/221127.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/img/img.png",
+                "file": "Date/221127.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/img/img.png"
+                "file": "Date/221127.md"
               }
             }
           }
@@ -161,6 +163,8 @@
   },
   "active": "47ba1be0c2ae56d3",
   "lastOpenFiles": [
+    "Date/221126.md",
+    "Date/img/img.png",
     "Date/img/221022_1.png",
     "Date/img/221018_1.png",
     "Date/221122.md",
@@ -168,8 +172,6 @@
     "Date/221121.md",
     "Date/221119.md",
     "Date/221118.md",
-    "Date/221117.md",
-    "Date/221113.md",
-    "Study/JPA/연관관계.md"
+    "Date/221117.md"
   ]
 }
