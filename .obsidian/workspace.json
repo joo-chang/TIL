@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221129.md",
+                "file": "Date/221201.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221129.md",
+                "file": "Date/221201.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221129.md",
+                "file": "Date/221201.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221129.md"
+                "file": "Date/221201.md"
               }
             }
           },
@@ -148,6 +148,8 @@
   },
   "active": "e08f4353ee82bf95",
   "lastOpenFiles": [
+    "Date/221129.md",
+    "Date/221201.md",
     "Date/221128.md",
     "Study/JPA/영속성 컨텍스트.md",
     "Study/마크다운.md",
@@ -155,8 +157,6 @@
     "Study/log4j2.md",
     "README.md",
     "Date/221125.md",
-    "Date/221124.md",
-    "Date/221123.md",
-    "Date/221118.md"
+    "Date/221124.md"
   ]
 }
