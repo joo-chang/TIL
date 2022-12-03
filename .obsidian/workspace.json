@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221203.md",
+                "file": "Date/221204.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221203.md",
+                "file": "Date/221204.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221203.md",
+                "file": "Date/221204.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221203.md"
+                "file": "Date/221204.md"
               }
             }
           },
@@ -148,6 +148,7 @@
   },
   "active": "e08f4353ee82bf95",
   "lastOpenFiles": [
+    "Date/221203.md",
     "Date/221201.md",
     "Date/221129.md",
     "Date/221128.md",
@@ -156,7 +157,6 @@
     "Study/프록시서버.md",
     "Study/log4j2.md",
     "README.md",
-    "Date/221125.md",
-    "Date/221124.md"
+    "Date/221125.md"
   ]
 }
