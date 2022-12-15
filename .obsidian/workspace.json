@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e8404488f567c643",
@@ -148,15 +147,15 @@
   },
   "active": "e08f4353ee82bf95",
   "lastOpenFiles": [
+    "Date/221215.md",
+    "Date/221211.md",
     "Date/221213.md",
+    "Date/221214.md",
     "Date/221212.md",
     "Date/221208.md",
     "Date/221207.md",
     "Date/221205.md",
     "Date/221202.md",
-    "Date/221129.md",
-    "Date/221128.md",
-    "Study/JPA/영속성 컨텍스트.md",
-    "Study/마크다운.md"
+    "Date/221129.md"
   ]
 }
