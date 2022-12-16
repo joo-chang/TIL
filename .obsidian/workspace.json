@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221215.md",
+                "file": "무제파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221215.md",
+                "file": "무제파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221215.md",
+                "file": "무제파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221215.md"
+                "file": "무제파일.md"
               }
             }
           },
@@ -145,17 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e08f4353ee82bf95",
+  "active": "d30f8db0cd6c0d23",
   "lastOpenFiles": [
-    "Date/221214.md",
     "Date/221215.md",
     "Date/221211.md",
-    "Date/221213.md",
-    "Date/221212.md",
-    "Date/221208.md",
-    "Date/221207.md",
-    "Date/221205.md",
     "Date/221202.md",
-    "Date/221129.md"
+    "Date/221205.md",
+    "Date/221210.md",
+    "Date/221209.md",
+    "Date/221208.md",
+    "Date/221206.md",
+    "Date/221204.md",
+    "Date/221203.md"
   ]
 }
