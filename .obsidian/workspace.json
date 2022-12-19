@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/221218.md",
+                "file": "Date/221219.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "img",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e8404488f567c643",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/221218.md",
+                "file": "Date/221219.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/221218.md",
+                "file": "Date/221219.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/221218.md"
+                "file": "Date/221219.md"
               }
             }
           },
@@ -148,15 +147,15 @@
   },
   "active": "e08f4353ee82bf95",
   "lastOpenFiles": [
-    "Date/221217.md",
-    "Date/221216.md",
     "Date/221215.md",
+    "Date/221214.md",
     "Date/221211.md",
-    "Date/221202.md",
-    "Date/221205.md",
-    "Date/221210.md",
-    "Date/221209.md",
+    "Date/221213.md",
+    "Date/221212.md",
     "Date/221208.md",
-    "Date/221206.md"
+    "Date/221207.md",
+    "Date/221205.md",
+    "Date/221202.md",
+    "Date/221129.md"
   ]
 }
