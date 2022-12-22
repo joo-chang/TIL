@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e8404488f567c643",
@@ -148,15 +147,15 @@
   },
   "active": "e08f4353ee82bf95",
   "lastOpenFiles": [
-    "Date/221219.md",
-    "Date/221215.md",
-    "Date/221214.md",
-    "Date/221211.md",
-    "Date/221213.md",
-    "Date/221212.md",
-    "Date/221208.md",
-    "Date/221207.md",
-    "Date/221205.md",
-    "Date/221202.md"
+    "Date/221028.md",
+    "Date/221029.md",
+    "Date/221030.md",
+    "Date/221101.md",
+    "Date/221107.md",
+    "Date/221106.md",
+    "Date/221104.md",
+    "Date/221103.md",
+    "Date/221031.md",
+    "Date/221109.md"
   ]
 }
