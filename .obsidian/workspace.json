@@ -160,26 +160,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "canvas:Create new canvas": false
     }
   },
   "active": "692e1430e08cee61",
   "lastOpenFiles": [
     "Date/230114.md",
     "Date/230111.md",
-    "Date/230112.md",
+    "Date/230115.md",
     "Date/230113.md",
+    "Date/230112.md",
     "Date/230110.md",
     "Date/230108.md",
     "Date/230107.md",
     "Date/221231.md",
-    "Date/221228.md",
-    "Date/221227.md"
+    "Date/221228.md"
   ]
 }
