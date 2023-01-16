@@ -1,5 +1,6 @@
 {
   "newFileLocation": "current",
   "attachmentFolderPath": "Date/img",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "vimMode": false
 }
