@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "49755e77b897ff03",
+        "id": "e8c445787ca3a84e",
         "type": "tabs",
         "children": [
           {
-            "id": "e08f4353ee82bf95",
+            "id": "df17878afa3d0dbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/230116.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "692e1430e08cee61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Date/230116.md",
+                "file": "Date/230117.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/230116.md",
+                "file": "Date/230117.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/230116.md",
+                "file": "Date/230117.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/230116.md"
+                "file": "Date/230117.md"
               }
             }
           },
@@ -168,17 +156,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e08f4353ee82bf95",
+  "active": "df17878afa3d0dbd",
   "lastOpenFiles": [
+    "Date/무제 파일 3.canvas",
+    "Date/무제 파일 2.canvas",
+    "Date/무제 파일 1.canvas",
+    "Date/230117.md",
+    "Date/230116.md",
+    "Date/무제 파일.canvas",
     "Date/230115.md",
     "Date/221221.md",
-    "Date/230116.md",
     "Date/230114.md",
-    "Date/230111.md",
-    "Date/230112.md",
-    "Date/230113.md",
-    "Date/230110.md",
-    "Date/230108.md",
-    "Date/230107.md"
+    "Date/230111.md"
   ]
 }
