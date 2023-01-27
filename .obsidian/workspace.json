@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b4d53385f8287cd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Date/230127.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/230126.md",
+                "file": "Date/230127.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/230126.md",
+                "file": "Date/230127.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/230126.md"
+                "file": "Date/230127.md"
               }
             }
           },
@@ -156,17 +169,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "df17878afa3d0dbd",
+  "active": "b4d53385f8287cd2",
   "lastOpenFiles": [
+    "Date/img/Pasted image 20221215094829.png",
+    "Date/img/Pasted image 20230127233447.png",
+    "Date/img/Pasted image 20230127233440.png",
+    "Date/img/Pasted image 20230127233443.png",
+    "Date/230127.md",
     "Date/230125.md",
     "Date/230126.md",
     "Date/230118.md",
     "Date/230121.md",
-    "Date/230123.md",
-    "Date/230117.md",
-    "Date/230124.md",
-    "Date/230120.md",
-    "Date/230114.md",
-    "Date/230115.md"
+    "Date/230123.md"
   ]
 }
