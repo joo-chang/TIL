@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/230208.md",
+                "file": "Date/230209.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/230208.md",
+                "file": "Date/230209.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/230208.md",
+                "file": "Date/230209.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/230208.md"
+                "file": "Date/230209.md"
               }
             }
           },
@@ -171,15 +171,15 @@
   },
   "active": "b4d53385f8287cd2",
   "lastOpenFiles": [
+    "Date/230208.md",
     "Date/230207.md",
     "Date/230206.md",
     "Date/230205.md",
     "Date/230204.md",
+    "Date/230203.md",
     "Date/230202.md",
     "Date/230201.md",
     "Date/230131.md",
-    "Date/230130.md",
-    "Date/230129.md",
-    "Date/230128.md"
+    "Date/230130.md"
   ]
 }
