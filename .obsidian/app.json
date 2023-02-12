@@ -2,5 +2,6 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "Date/img",
   "showUnsupportedFiles": true,
-  "vimMode": false
+  "vimMode": false,
+  "promptDelete": false
 }
