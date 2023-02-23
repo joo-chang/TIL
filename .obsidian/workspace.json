@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Date/230211.md",
+                "file": "Date/230224.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42070b643641f598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Date/230222.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e336479f672c0d4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Date/230223.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Date/230211.md",
+                "file": "Date/230223.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Date/230211.md",
+                "file": "Date/230223.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Date/230211.md"
+                "file": "Date/230223.md"
               }
             }
           },
@@ -169,17 +193,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b4d53385f8287cd2",
+  "active": "e336479f672c0d4d",
   "lastOpenFiles": [
+    "Date/230222.md",
+    "Date/230224.md",
+    "Date/230211.md",
     "Date/230210.md",
     "Date/230209.md",
     "Date/230208.md",
     "Date/230207.md",
     "Date/230221.md",
     "Date/230206.md",
-    "Date/230205.md",
-    "Date/230204.md",
-    "Date/230125.md",
-    "Date/230219.md"
+    "Date/230205.md"
   ]
 }
