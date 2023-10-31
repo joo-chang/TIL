@@ -37,10 +37,10 @@ import java.util.Arrays;
 public class Main {
 	public static void main(String[] args){
 		int[] array = {5, 6, 3, 9, 1, 2};
-		int[] prefixSum = new int[array.length + 1];
-		
-		for(int i = 0; i < array.length; i++){
-			prefixSum[i+1] = prefixSum[i] + array[i];
+		int[] prefixSum = new int[array.length];
+		prefixSum[0] = array[0];
+		for(int i = 1; i < array.length; i++){
+			prefixSum[i] = prefixSum[i - 1] + array[i];
 		}
 	}
 }
