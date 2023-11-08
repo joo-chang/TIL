@@ -23,7 +23,7 @@ npm start
 
 #### index.js
 
-```
+```js
 index.js
 
 // id root 찾아서 createRoot 루트로 만들어준다.
@@ -57,7 +57,7 @@ index.html
 
 함수형 컴포넌트
 
-```
+```js
 /pages/Home.js
 
 import React from "react";
@@ -81,7 +81,7 @@ export default Home;
 
 클래스 컴포넌트
 
-```
+```js
 /pages/Home.js
 
 import React, {Component} from "react";
@@ -123,7 +123,7 @@ npm install react-router-dom@6
 
 index.js 에 App 컴포넌트를 감싸도록 추가 해준다.
 
-```
+```js
 index.js
 
 import {BrowserRouter} from "react-router-dom";
@@ -142,7 +142,7 @@ root.render(
 
 Routes 안에 Route를 생성하는 방식으로 해당 Path가 호출 되었을 때, 어떤 화면을 보여줄 것인지 element 에 세팅 해준다.
 
-```
+```js
 App.js
 
 import { Link, Route, Routes } from 'react-router-dom';
@@ -174,7 +174,7 @@ function App() {
 
 setNum은 num 변수에 대한 Setter 함수이다.
 
-```
+```js
 import React, {useState} from "react";
 
 const [num, setNum] = useState(0);
@@ -192,7 +192,7 @@ const decrease = () =>{
 input 으로 데이터를 입력 받아 값을 변경할 수 있다.
 onChange 함수를 만들어서 onChange Event 발생 시 e.target.value를 통해 입력 받은 값을 setTextValue로 세팅하여 아래 화면에 {textValue} 로 뿌려준다.
 
-```
+```js
 Input.js
 
 import React, { useState } from "react";
@@ -222,7 +222,7 @@ export default Input;
 
 아래와 같이 기존에 선언된 객체를 새로 만들고, 받아온 id와 value를 넣어준다.
 
-```
+```js
 setInputs({
 	// 깊은 복사(새로운 객체를 만드는 것)
 	...inputs,
@@ -230,7 +230,7 @@ setInputs({
 })
 ```
 
-```
+```js
 import React, { useState } from "react";
 
 const Input2 = () => {
