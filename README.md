@@ -30,7 +30,7 @@
 [[Wrapper Class]]   
 [[연관관계]]   
 [[영속성 컨텍스트]]   
-[[WebSocket 사용 이유]]   
+[[WebSocket]]   
 
 ## 알고리즘
 
