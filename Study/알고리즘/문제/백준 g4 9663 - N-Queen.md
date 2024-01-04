@@ -58,6 +58,7 @@ public class Main {
 	    // depth가 곧 퀸의 개수
         if (depth == n) {  
             count++;  
+            return;
         }  
   
         for (int i = 0; i < n; i++) {  
