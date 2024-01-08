@@ -56,6 +56,8 @@
 [[그래프]]   
 [[다이나믹 프로그래밍]]   
 [[백트래킹 (Backtracking)]]   
+[[순열 (Permutation)]]   
+[[조합 (Combination)]]
 
 
 ### DFS BFS
