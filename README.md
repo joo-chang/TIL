@@ -57,7 +57,8 @@
 [[다이나믹 프로그래밍]]   
 [[백트래킹 (Backtracking)]]   
 [[순열 (Permutation)]]   
-[[조합 (Combination)]]
+[[조합 (Combination)]]   
+[[이분 탐색 (Binary Search)]]   
 
 
 ### DFS BFS
@@ -102,7 +103,9 @@
 [[백준 g5 1759- 암호 만들기]]   
 
 
-### 조합
+### 이분 탐색
+
+[[백준 s4 1920 - 수 찾기]]   
 
 
 
