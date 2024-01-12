@@ -91,3 +91,61 @@ public class BinarySearchExample {
 ```
 
 
+---
+
+## Lower Bound, Upper Bound
+
+기본적으로 이분 탐색은 정렬된 데이터에서 특정 값이 존재하는지 검색하는 알고리즘이다. 하지만 중복된 데이터에서 탐색할 때는 조금 더 응용된 방법을 사용해야 한다.
+
+예를 들어 중복된 데이터에서 특정 데이터가 몇 개 존재하는지 등 이러한 경우에는 lower bound 와 upper bound를 구해야한다.
+
+> Lower Bound : 데이터 내에서 특정 값보다 같거나 큰 값이 처음 나오는 위치를 리턴해준다.
+> Upper Bound : 특정 값보다 처음으로 큰 값이 나오는 위치를 리턴해준다.
+
+### Lower Bound
+
+기본 이진 탐색과 다른 점은 값을 찾았을 때 바로 리턴하는 것이 아니라 처음으로 나오는 값을 찾기 위해 범위를 좁혀가면서 찾는다. end = mid 로 범위를 좁혀간다.
+
+```java
+public static int lowerBound(int arr[], int value) {
+	int start = 0;
+	int end = arr.length;
+	int mid = 0;
+	while (start < end) {
+		mid = (start + end) / 2;
+		if (value <= arr[mid]) {
+			end = mid;
+		} else {
+			start = mid + 1;
+		}
+	}
+	return start;
+}
+```
+
+### Upper Bound
+
+lower bound와 거의 동일하다. 단지 최초로 큰 값이 나오는 곳을 찾기 위해 범위를 좁혀간다.
+
+```java
+public static int lowerBound(int arr[], int value) {
+	int start = 0;
+	int end = arr.length;
+	int mid = 0;
+	while (start < end) {
+		mid = (start + end) / 2;
+		if (value < arr[mid]) {
+			end = mid;
+		} else {
+			start = mid + 1;
+		}
+	}
+	return start;
+}
+```
+
+
+![[Pasted image 20240111163803.png]]
+
+
+![[Pasted image 20240111164330.png]]
