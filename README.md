@@ -16,7 +16,7 @@
 [[백엔드]]   
 [[JAVA]]   
 [[네트워크]]   
-[[운영체제]]   
+[[Study/기술 면접/Computer Science/운영체제]]   
 [[Spring]]
 
 ### 면접 질문
@@ -61,6 +61,9 @@
 [[Reflection]]   
 [[자바의 동시성과 멀티스레딩]]   
 [[계층화 아키텍처 (Layered Architecture)]]   
+[[Multi Process, Multi Thread 비교]]   
+[[운영체제란?]]   
+[[프로세스의 메모리 구조]]
 
 
 <br>
