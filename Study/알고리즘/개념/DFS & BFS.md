@@ -32,7 +32,7 @@ ex) 지구 상 존재하는 모든 친구 관계를 그래프로 표현한 후 a
 
 ![[Pasted image 20230127233447.png]]
 
-<br>
+
 
 ### 깊이우선탐색 (DFS)
 
@@ -50,3 +50,100 @@ ex) 지구 상 존재하는 모든 친구 관계를 그래프로 표현한 후 a
 	- 단일 출발(single-source) : 특정 노드와 그 외 노드간의 최단경로
 	- 단일 출발 및 단일도착(single-source & single-destination) : 특정 노드 2개의 최단 경로
 	- 전체 쌍(all-pair) : 모든 노드간의 연결 조합에 대한 최단 경로
+
+
+
+### 예제
+
+![[Pasted image 20240705100135.png]]
+
+
+```java
+import java.util.ArrayList;  
+import java.util.LinkedList;  
+import java.util.Queue;  
+  
+class Main {  
+
+	public static ArrayList<ArrayList<Integer>> graph;
+	public static boolean[] visited; 
+    public static void main(String[] args){  
+        graph = new ArrayList<>();  
+        
+        // 리스트 초기화  
+        for(int i = 0; i < 3; i++){  
+            graph.add(new ArrayList<Integer>());  
+        }  
+		visited = new boolean[graph.size() + 1]; 
+		
+        // 노드1에 연결된 노드 정보 저장  
+        graph.get(1).add(2);  
+        graph.get(1).add(3);  
+        graph.get(1).add(8);  
+  
+        // 노드2에 연결된 노드 정보 저장  
+        graph.get(2).add(1);  
+        graph.get(2).add(7);  
+  
+        // 노드3에 연결된 노드 정보 저장  
+        graph.get(3).add(1);  
+        graph.get(3).add(4);  
+        graph.get(3).add(5);  
+  
+        // 노드4에 연결된 노드 정보 저장  
+        graph.get(4).add(3);  
+        graph.get(4).add(5);  
+  
+        // 노드5에 연결된 노드 정보 저장  
+        graph.get(5).add(3);  
+        graph.get(5).add(4);  
+  
+        // 노드6에 연결된 노드 정보 저장  
+        graph.get(6).add(7);  
+  
+        // 노드7에 연결된 노드 정보 저장  
+        graph.get(7).add(2);  
+        graph.get(7).add(6);  
+        graph.get(7).add(8);  
+  
+        // 노드8에 연결된 노드 정보 저장  
+        graph.get(8).add(1);  
+        graph.get(8).add(7);  
+  
+        bfs(1);  
+  
+  
+    }  
+  
+    private static void bfs(int start) {  
+        Queue<Integer> queue = new LinkedList<>();  
+         
+        queue.add(start);  
+        visited[start] = true;  
+  
+        while(!queue.isEmpty()){  
+            int target = queue.poll();  
+  
+            for(int n : graph.get(target)){  
+                if(!visited[n]){  
+                    queue.add(n);  
+                    visited[n] = true;  
+                }  
+            }  
+        }  
+    }  
+
+	public static void dfs(int point){
+		visited[point] = true;
+		
+		for(int n : graph.get(point)){
+			if(!visited[n]){
+				dfs(n);
+			}
+		}
+	}
+  
+}
+```
+
+<br>
