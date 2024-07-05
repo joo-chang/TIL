@@ -52,3 +52,44 @@ MSA 전환 시 도메인별로 서비스가 나뉘기 때문에 도메인별로 
 - settings.gradle에서 하위 모듈 추가
 
 ![[Pasted image 20240612123914.png]]
+
+### settings.gradle
+
+```java
+rootProject.name = 'shboard'
+include 'shboard-common'
+include 'member-service'
+include 'board-service'
+include 'discovery-server'
+```
+
+settings.gradle 에서는 하위 모듈들을 include로 선언해줘서 Root 모듈 설정에서 사용할 수 있도록 지정한다.
+### build.gradle
+
+```java
+project(':board-service') {
+
+	dependencies {
+	
+		implementation project(':shboard-common')
+		
+		implementation project(':member-service')
+		
+		implementation(testFixtures(project(":shboard-common")))
+		
+	}
+
+}
+
+project(':member-service') {
+
+	dependencies {
+	
+		implementation project(':shboard-common')
+		
+		implementation(testFixtures(project(":shboard-common")))
+		
+	}
+
+}
+```
