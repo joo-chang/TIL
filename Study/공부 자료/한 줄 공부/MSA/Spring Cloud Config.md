@@ -41,11 +41,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/tour-korea/config-service.git
+          uri: https://github.com/project/config-service.git
           search-paths: config-file/**
           default-label: main
-          username: hyunjee
-          password: dafsfsfad
+          username: 
+          password: 
 ```
 
 - config 서버는 기본으로 8888 사용
@@ -74,4 +74,43 @@ public class ConfigServiceApplication {
 
 ---
 ## Spring Cloud Config Client 구축
+
+### 의존성 추가
+
+```
+implementation 'org.springframework.cloud:spring-cloud-starter-config'  
+implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'  
+implementation 'org.springframework.boot:spring-boot-starter-actuator'
+```
+
+### 환경에 맞는 bootstrap.yml 생성
+
+```
+// bootstrap-local.yml
+
+spring:  
+  application:  
+    name: article-service  
+  cloud:  
+    config:  
+      uri: http://localhost:8888  //config 서버 연동
+      profile: local
+```
+
+- 해당 설정 후 서버 실행 시 github에 있는 설정 파일을 불러와 실행된다.
+
+---
+## Config 파일 수정
+
+- Config 파일 수정 후 실시간 적용 방법은 github에 수정된 파일을 반영 후 actuator 기능 사용
+- 각 서비스에 아래 설정 정보를 저장한다.
+- 이후 `http://localhost:8000/actuator/refresh` 경로로 POST 요청을 보내게되면 수정 사항이 있을 경우 새롭게 파일을 읽어와 반영된다.
+
+```
+management:  
+  endpoints:  
+    web:  
+      exposure:  
+        include: "refresh"
+```
 
