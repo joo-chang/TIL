@@ -7,13 +7,13 @@
 
 [[개발자 필수 지식]]      
 [[디자인 패턴]]      
-[[자료구조]]      
+[[Study/기술 정리/Computer Science/자료구조]]      
 [[컴퓨터 구조]]      
 [[백엔드]]   
-[[JAVA]]   
-[[네트워크]]   
-[[운영체제]]   
-[[Spring]]   
+[[Study/기술 정리/Computer Science/JAVA]]   
+[[Study/기술 정리/Computer Science/네트워크]]   
+[[Study/기술 정리/Computer Science/운영체제]]   
+[[Study/기술 정리/Computer Science/Spring]]   
 
 <br>
 
