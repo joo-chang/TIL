@@ -74,6 +74,8 @@ UNION 문은 중복된 열의 존재 유무에 상관없이 열을 선택할 때
 
 ### **[ Tip #8: Avoid using OR in join conditions ]**
 
+> 조인 조건에서 OR 사용 피하기
+
 조인 조건에 'OR'을 사용할 때마다 쿼리는 최소한 2배 이상 느려진다. OR문을 사용하는 경우에는 Index를 활용한 검색을 하지 못하고, Full-Scan을 하기 때문이다.
 
 - Original: SELECT * FROM SH.costs c INNER JOIN SH.products p ON c.unit_price = p.prod_min_price OR c.unit_price = p.prod_list_price;
@@ -84,6 +86,8 @@ UNION 문은 중복된 열의 존재 유무에 상관없이 열을 선택할 때
 
 ### **[ Tip #9: Avoid functions on the right hand side of the operator ]**
 
+> 컬럼에 함수를 적용하거나 연산자를 통해 비교 시 함수를 사용하는 것을 지양
+
 Functions 또는 Methods는 SQL 쿼리에서 자주 함께 사용된다. 집계 함수 기능을 제거하여 쿼리를 재작성하는 것은 성능을 상당히 높여줄 것이다.
 
 - Original: SELECT * FROM SH.sales WHERE EXTRACT (YEAR FROM TO_DATE (time_id, 'DD-MON-RR')) = 2001 AND EXTRACT (MONTH FROM TO_DATE (time_id, 'DD-MON-RR')) = 12;
@@ -93,6 +97,8 @@ Functions 또는 Methods는 SQL 쿼리에서 자주 함께 사용된다. 집계 
 ![[Pasted image 20240603233056.png]]
 
 ### **[ Tip #10: Remove any redundant mathematics ]**
+
+> 중복된 연산 제거하기
 
 SQL 문을 작성하다 보면 수학 연산을 수행해야할 때가 있다. 수학연산은 매번 열을 찾아서 연산을 다시 하므로, 부적절하게 사용된다면 성능을 상당히 저하시킬 것이다. 따라서 SQL문에서 불필요한 수학 연산을 제거하는 것은 속도를 빠르게 할 것이다.
 
