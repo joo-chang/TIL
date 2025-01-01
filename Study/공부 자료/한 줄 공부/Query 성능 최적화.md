@@ -4,6 +4,8 @@
 
 ### **[ Tip #1: Use Column Names Instead of * in a SELECT Statement ]**
 
+> SELECT 문 사용 시 전체 조회 보다 열 이름을 사용해라
+
 테이블에서 몇 개의 컬럼만을 조회하는 경우라면, SELECT를 사용할 필요가 없다. 비록 이것이 적기 편할 수 있지만, 쿼리를 완료하기 위해서 더 많은 시간을 필요로 한다. 필요한 일부 컬럼만을 선택함으로써 결과 테이블의 크기를 줄이고 네트워크 트래픽을 감소시킴으로써 쿼리의 평균 속도를 높일 수 있다.
 
 - Original: SELECT * FROM SH.Sales;
@@ -13,6 +15,8 @@
 ![[Pasted image 20240603233004.png]]
 
 ### **[ Tip #2: Avoid including HAVING clause in SELECT statements ]**
+
+> SELECT 문에 HAVING 절을 포함하지 마라
 
 Having 절은 모든 열이 선택된 이후에 필터를 위해 사용된다. SELECT 문에서는 HAVING절이 불필요하다. 이것은 최종 테이블에서 모든 열들을 파싱하면서 HAVING 조건에 충족되지 않는 열들을 필터링한다.
 
@@ -24,6 +28,8 @@ Having 절은 모든 열이 선택된 이후에 필터를 위해 사용된다. S
 
 ### **[ Tip #3: Eliminate Unnecessary DISTINCT Conditions ]**
 
+> 불필요한 DISTINCT 는 제거해라
+
 아래의 예제와 같이 테이블은 Primary Key를 가지고 있기 때문에 DISTINCT를 사용할 필요가 없으므로 제거한다. DISTINCT를 사용하면 정렬하는 과정이 들어가기 때문에, Query의 속도가 상당히 저하된다.
 
 - Original: SELECT DISTINCT * FROM SH.Sales s JOIN SH.Customer c ON s.cust_id = c.cust_id WHERE c.cust_marital_status = 'single';
@@ -33,6 +39,8 @@ Having 절은 모든 열이 선택된 이후에 필터를 위해 사용된다. S
 ![[Pasted image 20240603233016.png]]
 
 ### **[ Tip #4: Un-nest subqueries ]**
+
+> 중첩된 쿼리를 해제하는 것이 효과적이다.
 
 중첩된 쿼리를 조인조건으로 재작성하는 것은 효율적인 실행과 효과적인 최적화를 불러일으킨다. 일반적으로 서브쿼리를 푸는 것은 ANY, ALL, EXISTS 등이 사용되는 한개의 테이블에서 처리된다.
 
@@ -44,6 +52,8 @@ Having 절은 모든 열이 선택된 이후에 필터를 위해 사용된다. S
 
 ### **[ Tip #5: Consider using an IN predicate when querying an indexed column ]**
 
+> 인덱스가 지정된 열을 조회할 때 IN절을 사용해라
+
 IN-list는 index된 검색을 위해 활용될 수 있으며, Optimizer는 Index의 정렬 순서와 일치하도록 IN-list를 정렬하여 보다 효율적인 검색을 수행할 수 있다. IN-list에는 상수 또는 쿼리 블록이 실행되는 동안 일정한 값만 포함해야 한다.
 
 - Original: SELECT s.* FROM SH.sales s WHERE s.prod_id = 14 OR s.prod_id = 17;
@@ -54,6 +64,8 @@ IN-list는 index된 검색을 위해 활용될 수 있으며, Optimizer는 Index
 
 ### **[ Tip #6: Use EXISTS instead of DISTINCT when using table joins that involves tables having one-to-many relationships ]**
 
+> 1대다 관계의 테이블을 조인 하는 경우 DISTINCT 대신 EXISTS를 사용해라
+
 DISTINCT 키워드는 테이블의 모든 열을 선택한 후에 중복되는 것들을 파싱하는 형태로 작동한다. 만약 서브쿼리와 함께 EXISTS키워드를 사용한다면, 전체 테이블을 조회하는 것을 피할 수 있다.
 
 - Original: SELECT DISTINCT c.country_id, c.country_name FROM SH.countries c, SH.customers e WHERE e.country_id = c.country_id;
@@ -63,6 +75,8 @@ DISTINCT 키워드는 테이블의 모든 열을 선택한 후에 중복되는 �
 ![[Pasted image 20240603233035.png]]
 
 ### **[ Tip #7: Try to use UNION ALL in place of UNION ]**
+
+> 중복 검사를 피하기 위해 UNION ALL을 사용해라
 
 UNION 문은 중복된 열의 존재 유무에 상관없이 열을 선택할 때 중복 검사를 하지만 UNION ALL은 중복검사를 하지 않으므로, UNION 보다는 UNION ALL을 사용하는 것이 빠르다.
 
