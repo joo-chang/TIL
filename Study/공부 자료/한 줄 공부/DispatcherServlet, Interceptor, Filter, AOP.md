@@ -1,3 +1,28 @@
+## Filter (javax.servlet.Filter)
+
+- 서블릿 스펙의 Filter이며, 스프링 MVC의 DispatcherServlet보다 더 앞에서 동작 가능(서블릿 컨테이너 레벨)
+- 모든 요청/응답 흐름에 대해 공통 전처리, 후처리를 할 수 있는 기능
+- ex) 인코딩 설정, 보안 검증, 로깅, CORS 처리 등
+
+### 동작 흐름
+
+- HTTP 요청이 웹 서버에 들어오면, Filter Chain의 등록 순서대로 각 Filter가 doFilter()를 실행한다.
+- 각 Filter는 다음 Filter로 넘길지 결정할 수 있고, 다음 Filter 까지 다 끝난 후에 응답에 대해서도 후처리 할 수 있다.
+- 최종적으로 DispatcherServlet(또는 다른 서블릿)에 도달하기 전까지 여러 Filter가 chaining 된다.
+
+### 주요 메서드
+
+- init(FilterConfig) : 초기화 시점(서버 시작)
+- doFilter(SevletRequest, ServletResponse, FilterChain) : 요청-응답 처리의 핵심
+- destroy() : 종료 시점(서버 종료)
+
+### 등록 방식
+
+- web.xml에 필터 태그로 설정하거나, Spring Boot 에서는 @WebFilter + FilterRegistrationBean으로 등록 가능
+- 순서를 설정해 여러 Filter를 체인으로 구성한다.
+
+<br>
+
 ## DispatcherServlet
 
 - 스프링 MVC의 프론트 컨트롤러 역할을 수행하는 서블릿 클래스이다.
@@ -39,29 +64,6 @@
 - 주로 **WebMvcConfigurer**를 구현한 설정 클래스에서 `addInterceptors(InterceptorRegistry registry)` 메서드로 등록
 
 <br>
-
-## Filter (javax.servlet.Filter)
-
-- 서블릿 스펙의 Filter이며, 스프링 MVC의 DispatcherServlet보다 더 앞에서 동작 가능(서블릿 컨테이너 레벨)
-- 모든 요청/응답 흐름에 대해 공통 전처리, 후처리를 할 수 있는 기능
-- ex) 인코딩 설정, 보안 검증, 로깅, CORS 처리 등
-
-### 동작 흐름
-
-- HTTP 요청이 웹 서버에 들어오면, Filter Chain의 등록 순서대로 각 Filter가 doFilter()를 실행한다.
-- 각 Filter는 다음 Filter로 넘길지 결정할 수 있고, 다음 Filter 까지 다 끝난 후에 응답에 대해서도 후처리 할 수 있다.
-- 최종적으로 DispatcherServlet(또는 다른 서블릿)에 도달하기 전까지 여러 Filter가 chaining 된다.
-
-### 주요 메서드
-
-- init(FilterConfig) : 초기화 시점(서버 시작)
-- doFilter(SevletRequest, ServletResponse, FilterChain) : 요청-응답 처리의 핵심
-- destroy() : 종료 시점(서버 종료)
-
-### 등록 방식
-
-- web.xml에 필터 태그로 설정하거나, Spring Boot 에서는 @WebFilter + FilterRegistrationBean으로 등록 가능
-- 순서를 설정해 여러 Filter를 체인으로 구성한다.
 
 ## AOP (Aspect-Oriented Promramming)
 
